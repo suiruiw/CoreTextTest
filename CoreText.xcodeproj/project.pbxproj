@@ -14,6 +14,8 @@
 		F464E9812224E4B400FFFB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F464E97F2224E4B400FFFB3C /* LaunchScreen.storyboard */; };
 		F464E9842224E4B400FFFB3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F464E9832224E4B400FFFB3C /* main.m */; };
 		F464E98E2224E4B400FFFB3C /* CoreTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F464E98D2224E4B400FFFB3C /* CoreTextTests.m */; };
+		F464E99A2224E64900FFFB3C /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464E9992224E64900FFFB3C /* CTDisplayView.m */; };
+		F464E99D2225363100FFFB3C /* frameAjust.m in Sources */ = {isa = PBXBuildFile; fileRef = F464E99C2225363100FFFB3C /* frameAjust.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F464E9892224E4B400FFFB3C /* CoreTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F464E98D2224E4B400FFFB3C /* CoreTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextTests.m; sourceTree = "<group>"; };
 		F464E98F2224E4B400FFFB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F464E9982224E64900FFFB3C /* CTDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		F464E9992224E64900FFFB3C /* CTDisplayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		F464E99B2225363100FFFB3C /* frameAjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frameAjust.h; sourceTree = "<group>"; };
+		F464E99C2225363100FFFB3C /* frameAjust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frameAjust.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				F464E9752224E4B200FFFB3C /* AppDelegate.m */,
 				F464E9772224E4B200FFFB3C /* ViewController.h */,
 				F464E9782224E4B200FFFB3C /* ViewController.m */,
+				F464E9982224E64900FFFB3C /* CTDisplayView.h */,
+				F464E9992224E64900FFFB3C /* CTDisplayView.m */,
+				F464E99B2225363100FFFB3C /* frameAjust.h */,
+				F464E99C2225363100FFFB3C /* frameAjust.m */,
 				F464E97A2224E4B200FFFB3C /* Main.storyboard */,
 				F464E97D2224E4B400FFFB3C /* Assets.xcassets */,
 				F464E97F2224E4B400FFFB3C /* LaunchScreen.storyboard */,
@@ -205,7 +215,9 @@
 			files = (
 				F464E9792224E4B200FFFB3C /* ViewController.m in Sources */,
 				F464E9842224E4B400FFFB3C /* main.m in Sources */,
+				F464E99A2224E64900FFFB3C /* CTDisplayView.m in Sources */,
 				F464E9762224E4B200FFFB3C /* AppDelegate.m in Sources */,
+				F464E99D2225363100FFFB3C /* frameAjust.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
